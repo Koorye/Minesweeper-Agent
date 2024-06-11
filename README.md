@@ -1,6 +1,6 @@
 # Minesweeper Agent
 
-A LLM-based Minesweeper Agent.
+A LLM-based Minesweeper Agent. [Paper](https://github.com/Koorye/Minesweeper-Agent/blob/main/minesweeper_agent.pdf).
 
 **This project is for educational purposes only.**
 
@@ -45,7 +45,7 @@ Thanks to the [LLM-Red-Team](https://github.com/LLM-Red-Team) for providing the 
 ## Citation
 
 ```bibtex
-@misc{glm-free-api,
+@misc{minesweeper-agent,
   author = {Shihan Wu},
   title = {Minesweeper Agent: Exploring the Reasoning Ability of Large Language Models},
   year = {2024},
