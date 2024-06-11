@@ -1,0 +1,25 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNzY5NTE4MywianRpIjoiZTFlNGU3Y2EtZjBkNi00MGRkLWI2NDctMzIxODQxODI5ZjBjIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI4Y2I2YWNiOWQ1OWQ0YWQ2OTE0Mzk0YTg4OTYyZDRmMCIsIm5iZiI6MTcxNzY5NTE4MywiZXhwIjoxNzMzMjQ3MTgzLCJ1aWQiOiI2NjYxZjJjZTE3N2Y0Yjg1Y2I2MmM0YmIiLCJ1cGxhdGZvcm0iOiJwYyIsInJvbGVzIjpbInVuYXV0aGVkX3VzZXIiXX0.QHRaNnoERGByCrgeabllRDCYZxxvsdwUxgYa0OlL5vs
+
+POST http://localhost:8000/v1/chat/completions HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "model": "spark",
+    "messages": [
+        {
+            "role": "user",
+            "content": "你是谁？"
+        }
+    ],
+    "stream": false
+}
+
+###
+
+POST http://localhost:8000/token/check HTTP/1.1
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
