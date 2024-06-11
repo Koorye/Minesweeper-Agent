@@ -4,6 +4,8 @@ A LLM-based Minesweeper Agent. [Paper](https://github.com/Koorye/Minesweeper-Age
 
 **This project is for educational purposes only.**
 
+![](pics/agent.png)
+
 ## How to use
 
 1. Install requirements:
