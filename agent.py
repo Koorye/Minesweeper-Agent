@@ -113,7 +113,7 @@ class Agent(object):
 
 
 if __name__ == '__main__':
-    model_name = 'memory'
+    model_name = 'glm'
     llm = CustomLLM(model_name, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNzY5NTE4MywianRpIjoiZTFlNGU3Y2EtZjBkNi00MGRkLWI2NDctMzIxODQxODI5ZjBjIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI4Y2I2YWNiOWQ1OWQ0YWQ2OTE0Mzk0YTg4OTYyZDRmMCIsIm5iZiI6MTcxNzY5NTE4MywiZXhwIjoxNzMzMjQ3MTgzLCJ1aWQiOiI2NjYxZjJjZTE3N2Y0Yjg1Y2I2MmM0YmIiLCJ1cGxhdGZvcm0iOiJwYyIsInJvbGVzIjpbInVuYXV0aGVkX3VzZXIiXX0.QHRaNnoERGByCrgeabllRDCYZxxvsdwUxgYa0OlL5vs')
 
     save_path = f'{model_name}.csv'
